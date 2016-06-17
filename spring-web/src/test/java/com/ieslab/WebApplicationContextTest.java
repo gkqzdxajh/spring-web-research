@@ -4,6 +4,7 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.FrameworkServlet;
 
+@SuppressWarnings("unused")
 public class WebApplicationContextTest {
 	private WebApplicationContext webApplicationContext;
 	private ContextLoaderListener contextLoaderListener;
