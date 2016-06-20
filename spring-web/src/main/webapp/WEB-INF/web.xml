@@ -14,11 +14,11 @@
 	</listener>
 
 	<!-- servlet定义：前端处理器，接受的HTTP请求和转发请求的类 -->
-	<!-- <servlet>
+	<servlet>
 		<servlet-name>saint</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
-			saint-servlet.xml：定义WebAppliactionContext上下文中的bean
+			<!--saint-servlet.xml：定义WebAppliactionContext上下文中的bean-->
 			<param-name>contextConfigLocation</param-name>
 			<param-value>classpath*:saint-servlet.xml</param-value>
 		</init-param>
@@ -27,5 +27,5 @@
 	<servlet-mapping>
 		<servlet-name>saint</servlet-name>
 		<url-pattern>/</url-pattern>
-	</servlet-mapping> -->
+	</servlet-mapping>
 </web-app>
